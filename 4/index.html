@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="js">
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>  <!-- jqueryで実装する場合 -->
+        <link rel="stylesheet" href="main.css">
+        <title>calculator</title>
+    </head>
+    <body>
+        <div class="calculator">
+        <input type="text" id="result">
+        <div class="row">
+            <input class="button" type="button" value="7" onClick="edit(this)">
+            <input class="button" type="button" value="8" onClick="edit(this)">
+            <input class="button" type="button" value="9" onClick="edit(this)">
+            <input class="button" type="button" value="+" onClick="edit(this)">
+        </div>
+        <div class="row">
+            <input class="button" type="button" value="4" onClick="edit(this)">
+            <input class="button" type="button" value="5" onClick="edit(this)">
+            <input class="button" type="button" value="6" onClick="edit(this)">
+            <input class="button" type="button" value="-" onClick="edit(this)">
+        </div>
+        <div class="row">
+            <input class="button" type="button" value="1" onClick="edit(this)">
+            <input class="button" type="button" value="2" onClick="edit(this)">
+            <input class="button" type="button" value="3" onClick="edit(this)">
+            <input class="button" type="button" value="*" onClick="edit(this)">
+        </div>
+        <div class="row">
+            <input class="button" type="button" value="0" onClick="edit(this)">
+            <input class="button" type="button" value="00" onClick="edit(this)">
+            <input class="button" type="button" value="." onClick="edit(this)">
+            <input class="button" type="button" value="/" onClick="edit(this)">
+        </div>
+        <div class="row01">
+            <input class="button" type="button" value="AC" onClick="reset()">
+            <input class="button" type="button" value="=" onClick="calc()">
+        </div>
+        <script src="main.js">
+        </script>
+    </body>
+</html>

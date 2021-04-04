@@ -1,0 +1,60 @@
+
+.calculator {
+    flex-flow: column;
+    width: 400px;
+    display: inline-flex;
+}
+.row {
+    flex-flow: row;
+    display: inline-flex;
+}
+
+.row01 {
+    flex-flow: row;
+    display: inline-flex;
+}
+
+.row .button{
+    width: 25%;
+    padding-top: 5px;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+.row01 .button{
+    width: 50%;
+    padding-top: 5px;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+
+#result {
+    background-color: black;
+    color: white;
+    padding: 4px;
+    text-align: right;
+    font-size: 1.6em;
+  
+}
+
+
+/*input[type~="button"]{
+    margin-top: 5px;
+    padding-top: 5px;
+    padding-right: 31px;
+    padding-left: 31px;
+    padding-bottom: 5px;
+    font-size: 1.2em;
+    background-color: #d3d3d3;
+    border-radius: 5px;
+}
+*/
+
